@@ -1,0 +1,105 @@
+Table users {
+    id          bigint       [pk, increment]
+    full_name   varchar(255)
+    email       varchar(255) [not null]
+    password    varchar(255) [not null]
+    avatar_url  varchar(255)
+    role        varchar(20)  [not null, default: 'USER', note: "CHECK role IN ('USER','ADMIN')"]
+
+    is_active   boolean      [not null, default: true]
+    is_deleted  boolean      [not null, default: false]
+    created_at  timestamp
+    updated_at  timestamp
+    deleted_at  timestamp
+    created_by  bigint
+    updated_by  bigint
+    deleted_by  bigint
+
+    indexes {
+    email [unique, name: 'uq_users_email_active', note: 'WHERE is_deleted = FALSE']
+    }
+}
+
+Table currencies {
+    id              bigint       [pk, increment]
+    country_name    varchar(255)
+    currency_name   varchar(255)
+    alphabetic_code varchar(3)   [not null, unique]
+    symbol          varchar(255)
+
+    is_active       boolean      [not null, default: true]
+    is_deleted      boolean      [not null, default: false]
+    created_at      timestamp
+    updated_at      timestamp
+    deleted_at      timestamp
+    created_by      bigint
+    updated_by      bigint
+    deleted_by      bigint
+}
+
+Table categories {
+    id            bigint      [pk, increment]
+    category_name varchar(255)
+    category_type varchar(10) [not null, note: "CHECK category_type IN ('CASH_IN','CASH_OUT')"]
+
+    is_active     boolean     [not null, default: true]
+    is_deleted    boolean     [not null, default: false]
+    created_at    timestamp
+    updated_at    timestamp
+    deleted_at    timestamp
+    created_by    bigint
+    updated_by    bigint
+    deleted_by    bigint
+
+    indexes {
+    (category_name, category_type) [unique, name: 'uq_categories_name_type']
+    }
+}
+
+Table books {
+    id          bigint       [pk, increment]
+    book_name   varchar(255)
+    user_id     bigint       [not null]
+    currency_id bigint       [not null]
+
+    is_active   boolean      [not null, default: true]
+    is_deleted  boolean      [not null, default: false]
+    created_at  timestamp
+    updated_at  timestamp
+    deleted_at  timestamp
+    created_by  bigint
+    updated_by  bigint
+    deleted_by  bigint
+
+    indexes {
+    user_id [name: 'idx_books_user_id']
+    }
+}
+
+Table transactions {
+    id               bigint         [pk, increment]
+    amount           numeric(15,2)  [not null, note: 'CHECK amount > 0']
+    transaction_date date
+    note             varchar(255)
+    book_id          bigint         [not null]
+    category_id      bigint         [not null]
+
+    is_active        boolean        [not null, default: true]
+    is_deleted       boolean        [not null, default: false]
+    created_at       timestamp
+    updated_at       timestamp
+    deleted_at       timestamp
+    created_by       bigint
+    updated_by       bigint
+    deleted_by       bigint
+
+    indexes {
+    (book_id, transaction_date) [name: 'idx_transactions_book_date']
+    category_id [name: 'idx_transactions_category_id']
+    }
+}
+
+Ref fk_books_users:              books.user_id          > users.id
+Ref fk_books_currencies:         books.currency_id      > currencies.id
+Ref fk_transactions_books:       transactions.book_id   > books.id [delete: cascade]
+Ref fk_transactions_categories:  transactions.category_id > categories.id
