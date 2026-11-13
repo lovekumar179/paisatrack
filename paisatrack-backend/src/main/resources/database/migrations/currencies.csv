@@ -1,0 +1,154 @@
+country_name,currency_name,alphabetic_code,symbol
+Afghanistan,Afghan Afghani,AFN,؋
+Albania,Albanian Lek,ALL,L
+Algeria,Algerian Dinar,DZD,د.ج
+Angola,Angolan Kwanza,AOA,Kz
+Argentina,Argentine Peso,ARS,$
+Armenia,Armenian Dram,AMD,֏
+Aruba,Aruban Florin,AWG,ƒ
+Australia,Australian Dollar,AUD,$
+Azerbaijan,Azerbaijani Manat,AZN,₼
+Bahamas,Bahamian Dollar,BSD,$
+Bahrain,Bahraini Dinar,BHD,BD
+Bangladesh,Bangladeshi Taka,BDT,৳
+Barbados,Barbadian Dollar,BBD,$
+Belarus,Belarusian Ruble,BYN,Br
+Belize,Belize Dollar,BZD,$
+Bermuda,Bermudian Dollar,BMD,$
+Bhutan,Bhutanese Ngultrum,BTN,Nu.
+Bolivia,Boliviano,BOB,Bs.
+Bosnia and Herzegovina,Convertible Mark,BAM,KM
+Botswana,Botswana Pula,BWP,P
+Brazil,Brazilian Real,BRL,R$
+Brunei,Brunei Dollar,BND,$
+Burundi,Burundian Franc,BIF,FBu
+CFP Franc Territories,CFP Franc,XPF,₣
+Cambodia,Cambodian Riel,KHR,៛
+Canada,Canadian Dollar,CAD,$
+Cape Verde,Cape Verdean Escudo,CVE,$
+Cayman Islands,Cayman Islands Dollar,KYD,$
+Central African States,Central African CFA Franc,XAF,FCFA
+Chile,Chilean Peso,CLP,$
+China,Chinese Yuan,CNY,¥
+Colombia,Colombian Peso,COP,$
+Comoros,Comorian Franc,KMF,CF
+Costa Rica,Costa Rican Colon,CRC,₡
+Cuba,Cuban Peso,CUP,$
+Curacao and Sint Maarten,Caribbean Guilder,XCG,Cg
+Czech Republic,Czech Koruna,CZK,Kč
+Democratic Republic of the Congo,Congolese Franc,CDF,FC
+Denmark,Danish Krone,DKK,kr
+Djibouti,Djiboutian Franc,DJF,Fdj
+Dominican Republic,Dominican Peso,DOP,RD$
+Eastern Caribbean States,East Caribbean Dollar,XCD,$
+Egypt,Egyptian Pound,EGP,E£
+Eritrea,Eritrean Nakfa,ERN,Nfk
+Eswatini,Swazi Lilangeni,SZL,E
+Ethiopia,Ethiopian Birr,ETB,Br
+Eurozone,Euro,EUR,€
+Falkland Islands,Falkland Islands Pound,FKP,£
+Fiji,Fijian Dollar,FJD,$
+Gambia,Gambian Dalasi,GMD,D
+Georgia,Georgian Lari,GEL,₾
+Ghana,Ghanaian Cedi,GHS,₵
+Gibraltar,Gibraltar Pound,GIP,£
+Guatemala,Guatemalan Quetzal,GTQ,Q
+Guinea,Guinean Franc,GNF,FG
+Guyana,Guyanese Dollar,GYD,$
+Haiti,Haitian Gourde,HTG,G
+Honduras,Honduran Lempira,HNL,L
+Hong Kong,Hong Kong Dollar,HKD,HK$
+Hungary,Hungarian Forint,HUF,Ft
+Iceland,Icelandic Krona,ISK,kr
+India,Indian Rupee,INR,₹
+Indonesia,Indonesian Rupiah,IDR,Rp
+Iran,Iranian Rial,IRR,﷼
+Iraq,Iraqi Dinar,IQD,IQD
+Israel,Israeli New Shekel,ILS,₪
+Jamaica,Jamaican Dollar,JMD,$
+Japan,Japanese Yen,JPY,¥
+Jordan,Jordanian Dinar,JOD,JD
+Kazakhstan,Kazakhstani Tenge,KZT,₸
+Kenya,Kenyan Shilling,KES,KSh
+Kuwait,Kuwaiti Dinar,KWD,KD
+Kyrgyzstan,Kyrgyzstani Som,KGS,с
+Laos,Lao Kip,LAK,₭
+Lebanon,Lebanese Pound,LBP,L£
+Lesotho,Lesotho Loti,LSL,L
+Liberia,Liberian Dollar,LRD,$
+Libya,Libyan Dinar,LYD,LD
+Macau,Macanese Pataca,MOP,MOP$
+Madagascar,Malagasy Ariary,MGA,Ar
+Malawi,Malawian Kwacha,MWK,MK
+Malaysia,Malaysian Ringgit,MYR,RM
+Maldives,Maldivian Rufiyaa,MVR,Rf
+Mauritania,Mauritanian Ouguiya,MRU,UM
+Mauritius,Mauritian Rupee,MUR,₨
+Mexico,Mexican Peso,MXN,$
+Moldova,Moldovan Leu,MDL,L
+Mongolia,Mongolian Tugrik,MNT,₮
+Morocco,Moroccan Dirham,MAD,MAD
+Mozambique,Mozambican Metical,MZN,MT
+Myanmar,Myanmar Kyat,MMK,K
+Namibia,Namibian Dollar,NAD,$
+Nepal,Nepalese Rupee,NPR,₨
+New Zealand,New Zealand Dollar,NZD,$
+Nicaragua,Nicaraguan Cordoba,NIO,C$
+Nigeria,Nigerian Naira,NGN,₦
+North Korea,North Korean Won,KPW,₩
+North Macedonia,Macedonian Denar,MKD,ден
+Norway,Norwegian Krone,NOK,kr
+Oman,Omani Rial,OMR,OMR
+Pakistan,Pakistani Rupee,PKR,Rs
+Panama,Panamanian Balboa,PAB,B/.
+Papua New Guinea,Papua New Guinean Kina,PGK,K
+Paraguay,Paraguayan Guarani,PYG,₲
+Peru,Peruvian Sol,PEN,S/
+Philippines,Philippine Peso,PHP,₱
+Poland,Polish Zloty,PLN,zł
+Qatar,Qatari Riyal,QAR,QR
+Romania,Romanian Leu,RON,lei
+Russia,Russian Ruble,RUB,₽
+Rwanda,Rwandan Franc,RWF,FRw
+Saint Helena,Saint Helena Pound,SHP,£
+Samoa,Samoan Tala,WST,T
+Sao Tome and Principe,Sao Tome and Principe Dobra,STN,Db
+Saudi Arabia,Saudi Riyal,SAR,SR
+Serbia,Serbian Dinar,RSD,din
+Seychelles,Seychellois Rupee,SCR,SR
+Sierra Leone,Sierra Leonean Leone,SLE,Le
+Singapore,Singapore Dollar,SGD,$
+Solomon Islands,Solomon Islands Dollar,SBD,$
+Somalia,Somali Shilling,SOS,Sh
+South Africa,South African Rand,ZAR,R
+South Korea,South Korean Won,KRW,₩
+South Sudan,South Sudanese Pound,SSP,£
+Sri Lanka,Sri Lankan Rupee,LKR,Rs
+Sudan,Sudanese Pound,SDG,SDG
+Suriname,Surinamese Dollar,SRD,$
+Sweden,Swedish Krona,SEK,kr
+Switzerland,Swiss Franc,CHF,CHF
+Syria,Syrian Pound,SYP,£S
+Taiwan,New Taiwan Dollar,TWD,NT$
+Tajikistan,Tajikistani Somoni,TJS,SM
+Tanzania,Tanzanian Shilling,TZS,TSh
+Thailand,Thai Baht,THB,฿
+Tonga,Tongan Paanga,TOP,T$
+Trinidad and Tobago,Trinidad and Tobago Dollar,TTD,$
+Tunisia,Tunisian Dinar,TND,DT
+Turkey,Turkish Lira,TRY,₺
+Turkmenistan,Turkmenistan Manat,TMT,m
+Uganda,Ugandan Shilling,UGX,USh
+Ukraine,Ukrainian Hryvnia,UAH,₴
+United Arab Emirates,UAE Dirham,AED,AED
+United Kingdom,Pound Sterling,GBP,£
+United States,US Dollar,USD,$
+Uruguay,Uruguayan Peso,UYU,$U
+Uzbekistan,Uzbekistani Som,UZS,soum
+Vanuatu,Vanuatu Vatu,VUV,VT
+Venezuela,Venezuelan Bolivar,VES,Bs.S
+Vietnam,Vietnamese Dong,VND,₫
+West African States,West African CFA Franc,XOF,CFA
+Yemen,Yemeni Rial,YER,﷼
+Zambia,Zambian Kwacha,ZMW,ZK
+Zimbabwe,Zimbabwe Gold,ZWG,ZiG
